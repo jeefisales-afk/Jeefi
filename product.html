@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JEEFI Anti-Ice Kart | Product Brochure</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;font-family:Arial,Helvetica,sans-serif;background:#071525}
+body{display:flex;flex-direction:column}
+.topbar{height:70px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 4%;border-bottom:1px solid #dce6ee}
+.logo{font-size:36px;font-weight:900;font-style:italic;letter-spacing:2px;color:#123c86}
+.back{font-size:14px;font-weight:800;color:#123c86;text-decoration:none}
+.back:hover{text-decoration:underline}
+.viewer{flex:1;background:#26384a;padding:18px;display:flex;justify-content:center;min-height:0}
+.viewer iframe{width:min(1100px,100%);height:calc(100vh - 106px);border:0;background:#fff}
+@media(max-width:600px){.topbar{height:60px}.logo{font-size:28px}.viewer{padding:8px}.viewer iframe{height:calc(100vh - 76px)}}
+</style>
+</head>
+<body>
+<header class="topbar">
+<a class="logo" href="index.html">JEEFI</a>
+<a class="back" href="index.html">← Back to Home</a>
+</header>
+<main class="viewer">
+<iframe src="assets/jeefi-anti-ice-kart-brochure.pdf" title="JEEFI Anti-Ice Kart brochure"></iframe>
+</main>
+</body>
+</html>
